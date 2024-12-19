@@ -1,5 +1,5 @@
-run = "npm start"
-modules = ["nodejs-20", "web", "nix"]
+run = "npm run start"
+modules = ["nodejs-18", "nix"]
 
 [[ports]]
 localPort = 3078
@@ -14,7 +14,7 @@ localPort = 8080
 externalPort = 8080
 
 [deployment]
-run = ["sh", "-c", "npm start"]
+run = ["sh", "-c", "npm run start"]
 
 [nix]
 channel = "stable-24_05"

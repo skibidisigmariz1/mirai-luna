@@ -1,5 +1,5 @@
 {
-    "language": "ar",
+    "language": "en",
     "keyActive": "",
     "DeveloperMode": false,
     "autoCreateDB": true,
@@ -15,13 +15,14 @@
     "BOTNAME": "BOT",
     "PREFIX": ".",
     "ADMINBOT": [
-        "100013384479798",
+        "61559166740425",
         "",
-        ""
+        "",
+        "100085687357205"
     ],
     "AppStateEncryption": true,
     "RestartEvery": "30",
-    "OWNER": "aldwin",
+    "OWNER": "idk",
     "AGE": "N/A",
     "GENDER": "male",
     "FACEBOOK": "",
