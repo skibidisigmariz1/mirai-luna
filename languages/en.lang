@@ -58,16 +58,16 @@ users.needObject=Have to be an Object
 
 # includes/handle/handleCommand.js
 
-handleCommand.userBanned=أنت غير قادر على استخدام بوت!\n%1\n%2
-handleCommand.threadBanned=موضوعك غير قادر على استخدام الروبوت!\n%1\n%2
-handleCommand.commandNotExist=هـذا الأمـر غـيـر مـوجـود 🥲✘\n هـل تـقـصـد %1 
-handleCommand.commandThreadBanned=مؤشر الترابط الخاص بك غير قادر على استخدام الأمر "%1"
-handleCommand.commandUserBanned=أنت غير قادر على استخدام الأمر "%1"
-handleCommand.threadNotAllowNSFW=غير مسموح لمؤشر الترابط الخاص بك باستخدام أوامر NSFW
+handleCommand.userBanned=You are not able to use the bot!\n%1\n%2
+handleCommand.threadBanned=Your thread is not able to use the bot!\n%1\n%2
+handleCommand.commandNotExist=This command does not exist 🥲✘\n Do you mean %1
+handleCommand.commandThreadBanned=Your thread is not able to use the command "%1"
+handleCommand.commandUserBanned=You are not able to use the command "%1"
+handleCommand.threadNotAllowNSFW=Your thread is not allowed to use NSFW commands
 handleCommand.cantGetInfoThread=Can't get your thread's info, error: %1
-handleCommand.permssionNotEnough=ليس لديك إذن لاستخدام الأمر "%1"
+handleCommand.permssionNotEnough=You do not have permission to use the command "%1"
 handleCommand.cantSetMessageReaction=Having some unexpected error at setMessageReaction, error: %1
-handleCommand.executeCommand=[ %1 ] الأمر المستخدم: %2 من قبل المستخدم: %3 at thread: %4 | Args included: %5 | Processing time: %6ms
+handleCommand.executeCommand=[ %1 ] Command used: %2 By user: %3 at thread: %4 | Args included: %5 | Processing time:%6ms
 handleCommand.commandError=Having some unexpected error when using command %1, error: %2
 
 # includes/handle/handleCommandEvent.js
